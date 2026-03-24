@@ -26,11 +26,6 @@ This project analyzes call center performance using PostgreSQL and Power BI, foc
 - PostreSQL
 - Power BI
 
-### Project Structure
-- sql/: table creation and KPI queries
-- powerbi/: Power BI dashboard
-- images/: dashboard screenshot
-
 ### Future Improvements
 - Add Service Level KPI
 - Introduce more realistic datasets

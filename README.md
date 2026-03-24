@@ -8,7 +8,7 @@ This project analyzes call center performance using PostgreSQL and Power BI, foc
 - Analyze call distribution by hour and day
 
 ### Dashboard preview
-![Dashboard](dashboard.png)
+![Dashboard](dashboardcc.png)
 
 ### KPIs Included
 - Total calls: total number of incoming calls

@@ -30,7 +30,6 @@ This project analyzes call center performance using PostgreSQL and Power BI, foc
 - Add Service Level KPI
 - Introduce more realistic datasets
 - Improve agent-level insights
-- Add filtering by team and date
 
 ### About
 This project was built as part of a data analytics portfolio to demonstrate skills in SQL, data modeling and business intelligence.

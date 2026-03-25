@@ -1,35 +1,38 @@
-# Call Center KPI Dashboard
-This project analyzes call center performance using PostgreSQL and Power BI, focusing on key operational metrics and agent efficiency.
+## Dashboard Overview
 
-### Objectives
-- Monitor key KPIs such as FCR, Abandon Rate and CSAT
-- Evaluate agent performance
-- Identify call patterns over time
-- Analyze call distribution by hour and day
+This project analyzes call center performance using PostgreSQL and Power BI, combining operational KPIs with time-based and agent-level analysis.
 
-### Dashboard preview
 ![Dashboard](callcenterkpi.png)
 
-### KPIs Included
-- Total calls: total number of incoming calls
-- Abandon Rate (%): % of calls dropped before being answered
-- First Call Resolution (FCR %): % of issues resolved on first contact
-- Customer Satisfaction (CSAT): average satisfaction score
+### Key Features
+- **KPI Monitoring**  
+  Real-time overview of core metrics: Abandon Rate, CSAT, FCR, and Average Handle Time
 
-### Analysis Performed
-- Calls trend over time (monthly view)
-- Call distribution by hour (peak hours analysis)
-- Agent performance based on FCR
-- Heatmap of calls by day of week and hour
+- **Time-Based Analysis**  
+  Identification of peak hours and call volume patterns across days and months
 
-### Tools Used
-- PostreSQL
-- Power BI
+- **Agent Performance Tracking**  
+  Comparison of agents based on handled calls and First Call Resolution
 
-### Future Improvements
-- Add Service Level KPI
-- Introduce more realistic datasets
-- Improve agent-level insights
+- **Workload Distribution**  
+  Visualization of call concentration using hourly and weekly heatmaps
 
-### About
-This project was built as part of a data analytics portfolio to demonstrate skills in SQL, data modeling and business intelligence.
+
+## Analysis Highlights
+
+- Identified peak demand periods through hourly call distribution  
+- Detected workload imbalance across agents  
+- Observed variability in waiting times impacting abandonment  
+- Highlighted gaps in First Call Resolution affecting repeat calls  
+
+
+## Tools Used
+- PostgreSQL  
+- Power BI  
+
+
+## Potential Improvements
+
+- Introduce Service Level (SL) KPI for queue performance 
+- Enhance agent-level analysis with CSAT segmentation  
+- Add forecasting for call volume trends  
